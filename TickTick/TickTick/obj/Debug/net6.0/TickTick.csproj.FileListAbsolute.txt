@@ -92,3 +92,4 @@ C:\Users\cosal\Downloads\TickTick\TickTick\TickTick\obj\Debug\net6.0\refint\Tick
 C:\Users\cosal\Downloads\TickTick\TickTick\TickTick\obj\Debug\net6.0\TickTick.pdb
 C:\Users\cosal\Downloads\TickTick\TickTick\TickTick\obj\Debug\net6.0\TickTick.genruntimeconfig.cache
 C:\Users\cosal\Downloads\TickTick\TickTick\TickTick\obj\Debug\net6.0\ref\TickTick.dll
+C:\Users\cosal\Downloads\TickTick\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\LevelObjects\spr_powerup.xnb

@@ -12,7 +12,7 @@ partial class Level : GameObjectList
 
         // read the description
         string description = reader.ReadLine();
-
+        time = int.Parse(reader.ReadLine());
         // read the rows of the grid; keep track of the longest row
         int gridWidth = 0;
 
@@ -100,6 +100,8 @@ partial class Level : GameObjectList
             LoadGoal(x, y);
         else if (symbol == 'W')
             LoadWaterDrop(x, y);
+        else if (symbol == 'P')
+            LoadPowerUp(x, y);
         else if (symbol == 'R')
             LoadRocketEnemy(x, y);
         else if (symbol == 'T')
@@ -157,6 +159,15 @@ partial class Level : GameObjectList
         AddChild(w);
         // store an extra reference to it
         waterDrops.Add(w);
+    }
+
+    void LoadPowerUp(int x, int y)
+    {
+        // create the power-up;  place it around the center of the tile
+        Vector2 pos = GetCellPosition(x, y) + new Vector2(TileWidth / 2, TileHeight / 3);
+        PowerUp p = new PowerUp(this, pos);
+        // add it to the game world
+        AddChild(p);
     }
 
     void LoadRocketEnemy(int x, int y)

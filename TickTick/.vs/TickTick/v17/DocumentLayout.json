@@ -3,36 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\engine\\extendedgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|solutionrelative:engine\\extendedgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\engine\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|solutionrelative:engine\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\engine\\spritegameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|solutionrelative:engine\\spritegameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\engine\\textgameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|solutionrelative:engine\\textgameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\levelloading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelloading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\engine\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|solutionrelative:engine\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\levelobjects\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelobjects\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\levelobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\content\\sprites\\levelobjects\\spr_powerup.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\content\\sprites\\levelobjects\\spr_powerup.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\content\\sprites\\levelobjects\\spr_goal.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\content\\sprites\\levelobjects\\spr_goal.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\content\\sprites\\levelobjects\\spr_water.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\content\\sprites\\levelobjects\\spr_water.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\levelloading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelloading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\levelobjects\\waterdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelobjects\\waterdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\ticktick.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\ticktick.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\levelobjects\\enemies\\rocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelobjects\\enemies\\rocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\engine\\gameobjectlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|solutionrelative:engine\\gameobjectlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\ticktick\\levelobjects\\bombtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\levelobjects\\bombtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\engine\\spritesheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|solutionrelative:engine\\spritesheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\cosal\\downloads\\ticktick\\ticktick\\engine\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|solutionrelative:engine\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,102 +71,178 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TextGameObject.cs",
-              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\TextGameObject.cs",
-              "RelativeDocumentMoniker": "Engine\\TextGameObject.cs",
-              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\TextGameObject.cs",
-              "RelativeToolTip": "Engine\\TextGameObject.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T15:07:24.57Z",
+              "Title": "spr_goal.png",
+              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\Content\\Sprites\\LevelObjects\\spr_goal.png",
+              "RelativeDocumentMoniker": "TickTick\\Content\\Sprites\\LevelObjects\\spr_goal.png",
+              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\Content\\Sprites\\LevelObjects\\spr_goal.png",
+              "RelativeToolTip": "TickTick\\Content\\Sprites\\LevelObjects\\spr_goal.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-14T21:20:44.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\Player.cs",
-              "RelativeDocumentMoniker": "TickTick\\LevelObjects\\Player.cs",
-              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\Player.cs",
-              "RelativeToolTip": "TickTick\\LevelObjects\\Player.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:25:11.132Z",
+              "DocumentIndex": 4,
+              "Title": "spr_water.png",
+              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\Content\\Sprites\\LevelObjects\\spr_water.png",
+              "RelativeDocumentMoniker": "TickTick\\Content\\Sprites\\LevelObjects\\spr_water.png",
+              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\Content\\Sprites\\LevelObjects\\spr_water.png",
+              "RelativeToolTip": "TickTick\\Content\\Sprites\\LevelObjects\\spr_water.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-14T21:20:42.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "spr_powerup.png",
+              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\Content\\Sprites\\LevelObjects\\spr_powerup.png",
+              "RelativeDocumentMoniker": "TickTick\\Content\\Sprites\\LevelObjects\\spr_powerup.png",
+              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\Content\\Sprites\\LevelObjects\\spr_powerup.png",
+              "RelativeToolTip": "TickTick\\Content\\Sprites\\LevelObjects\\spr_powerup.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-14T21:20:35.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "TickTick",
+              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\TickTick.csproj",
+              "RelativeDocumentMoniker": "TickTick\\TickTick.csproj",
+              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\TickTick.csproj",
+              "RelativeToolTip": "TickTick\\TickTick.csproj",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-14T21:08:10.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PowerUp.cs",
+              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\PowerUp.cs",
+              "RelativeDocumentMoniker": "TickTick\\LevelObjects\\PowerUp.cs",
+              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\PowerUp.cs*",
+              "RelativeToolTip": "TickTick\\LevelObjects\\PowerUp.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:06:32.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\Player.cs",
+              "RelativeDocumentMoniker": "TickTick\\LevelObjects\\Player.cs",
+              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\Player.cs*",
+              "RelativeToolTip": "TickTick\\LevelObjects\\Player.cs*",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAHIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:51:40.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameObjectList.cs",
+              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\GameObjectList.cs",
+              "RelativeDocumentMoniker": "Engine\\GameObjectList.cs",
+              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\GameObjectList.cs",
+              "RelativeToolTip": "Engine\\GameObjectList.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:58:28.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BombTimer.cs",
+              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\BombTimer.cs",
+              "RelativeDocumentMoniker": "TickTick\\LevelObjects\\BombTimer.cs",
+              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\BombTimer.cs",
+              "RelativeToolTip": "TickTick\\LevelObjects\\BombTimer.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:55:51.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Level.cs",
               "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\Level.cs",
               "RelativeDocumentMoniker": "TickTick\\Level.cs",
               "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\Level.cs",
               "RelativeToolTip": "TickTick\\Level.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:35:54.082Z"
+              "WhenOpened": "2024-11-14T20:44:35.969Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "WaterDrop.cs",
+              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\WaterDrop.cs",
+              "RelativeDocumentMoniker": "TickTick\\LevelObjects\\WaterDrop.cs",
+              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\WaterDrop.cs",
+              "RelativeToolTip": "TickTick\\LevelObjects\\WaterDrop.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:21:07.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LevelLoading.cs",
               "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelLoading.cs",
               "RelativeDocumentMoniker": "TickTick\\LevelLoading.cs",
               "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelLoading.cs",
               "RelativeToolTip": "TickTick\\LevelLoading.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAC0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAKkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T17:56:18.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExtendedGame.cs",
-              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\ExtendedGame.cs",
-              "RelativeDocumentMoniker": "Engine\\ExtendedGame.cs",
-              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\ExtendedGame.cs*",
-              "RelativeToolTip": "Engine\\ExtendedGame.cs*",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHkAAABjAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Rocket.cs",
+              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\Enemies\\Rocket.cs",
+              "RelativeDocumentMoniker": "TickTick\\LevelObjects\\Enemies\\Rocket.cs",
+              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\TickTick\\LevelObjects\\Enemies\\Rocket.cs",
+              "RelativeToolTip": "TickTick\\LevelObjects\\Enemies\\Rocket.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:15:41.144Z",
+              "WhenOpened": "2024-11-14T19:59:56.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SpriteGameObject.cs",
-              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\SpriteGameObject.cs",
-              "RelativeDocumentMoniker": "Engine\\SpriteGameObject.cs",
-              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\SpriteGameObject.cs",
-              "RelativeToolTip": "Engine\\SpriteGameObject.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAABWAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "SpriteSheet.cs",
+              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\SpriteSheet.cs",
+              "RelativeDocumentMoniker": "Engine\\SpriteSheet.cs",
+              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\SpriteSheet.cs",
+              "RelativeToolTip": "Engine\\SpriteSheet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:18:59.523Z",
+              "WhenOpened": "2024-11-14T17:54:49.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameObject.cs",
-              "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\GameObject.cs",
-              "RelativeDocumentMoniker": "Engine\\GameObject.cs",
-              "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\GameObject.cs",
-              "RelativeToolTip": "Engine\\GameObject.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAFgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:01:22.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Camera.cs",
               "DocumentMoniker": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\Camera.cs",
               "RelativeDocumentMoniker": "Engine\\Camera.cs",
               "ToolTip": "C:\\Users\\cosal\\Downloads\\TickTick\\TickTick\\Engine\\Camera.cs",
               "RelativeToolTip": "Engine\\Camera.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T12:39:48.202Z",
               "EditorCaption": ""

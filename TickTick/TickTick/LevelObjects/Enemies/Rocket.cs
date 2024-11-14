@@ -9,6 +9,7 @@ class Rocket : AnimatedGameObject
     Level level;
     Vector2 startPosition;
     const float speed = 500;
+    bool CanCollideWithObjects;
 
     public Rocket(Level level, Vector2 startPosition, bool facingLeft) 
         : base(TickTick.Depth_LevelObjects)
@@ -30,11 +31,14 @@ class Rocket : AnimatedGameObject
             velocity.X = speed;
             this.startPosition = startPosition - new Vector2(2 * speed, 0);
         }
+
         Reset();
     }
 
     public override void Reset()
     {
+        CanCollideWithObjects = true;
+        Visible = true;
         // go back to the starting position
         LocalPosition = startPosition;
     }
@@ -44,13 +48,24 @@ class Rocket : AnimatedGameObject
         base.Update(gameTime);
 
         // if the rocket has left the screen, reset it
-        if (sprite.Mirror && BoundingBox.Right < level.BoundingBox.Left)
+        if (sprite.Mirror && BoundingBox.Right < level.BoundingBox.Left && CanCollideWithObjects)
             Reset();
-        else if (!sprite.Mirror && BoundingBox.Left > level.BoundingBox.Right)
+        else if (!sprite.Mirror && BoundingBox.Left > level.BoundingBox.Right && CanCollideWithObjects)
             Reset();
 
         // if the rocket touches the player, the player dies
-        if (level.Player.CanCollideWithObjects && HasPixelPreciseCollision(level.Player))
-            level.Player.Die();
+        if (level.Player.CanCollideWithObjects && this.CanCollideWithObjects && HasPixelPreciseCollision(level.Player))
+        {
+            if (level.Player.IsFalling)
+            {
+                level.Player.Jump();
+                this.Visible = false;
+                this.CanCollideWithObjects = false;
+            }
+            else
+            {
+                level.Player.Die();
+            }
+        }
     }
 }

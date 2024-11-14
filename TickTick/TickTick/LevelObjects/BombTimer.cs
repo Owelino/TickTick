@@ -8,12 +8,13 @@ class BombTimer : GameObjectList
 
     public bool Running { get; set; }
     public float Multiplier { get; set; }
+    public float TimeForLevel { get; set; }
 
     TextGameObject label;
 
     public bool HasPassed { get { return timeLeft <= 0; } }
 
-    public BombTimer()
+    public BombTimer(int time)
     {
         localPosition = new Vector2(20, 20);
         
@@ -25,6 +26,8 @@ class BombTimer : GameObjectList
         label = new TextGameObject("Fonts/MainFont", TickTick.Depth_UIForeground, Color.Yellow, TextGameObject.Alignment.Center);
         label.LocalPosition = new Vector2(50,25);
         AddChild(label);
+
+        TimeForLevel = time;
 
         Reset();
     }
@@ -62,7 +65,7 @@ class BombTimer : GameObjectList
     public override void Reset()
     {
         base.Reset();
-        timeLeft = 30;
+        timeLeft = TimeForLevel;
         Running = true;
         Multiplier = 1;
     }

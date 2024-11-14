@@ -2,6 +2,7 @@ using Engine;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using System;
+using System.Threading;
 
 class Player : AnimatedGameObject
 {
@@ -13,6 +14,8 @@ class Player : AnimatedGameObject
     const float iceFriction = 1; // Friction factor that determines how slippery the ice is; closer to 0 means more slippery.
     const float normalFriction = 20; // Friction factor that determines how slippery a normal surface is.
     const float airFriction = 5; // Friction factor that determines how much (horizontal) air resistance there is.
+
+    public float speedMultiplier = 1; // Increases walkingspeed by a certain factor
 
     bool facingLeft; // Whether or not the character is currently looking to the left.
 
@@ -73,17 +76,17 @@ class Player : AnimatedGameObject
             return;
 
         // arrow keys: move left or right
-        if (inputHelper.KeyDown(Keys.Left))
+        if (inputHelper.KeyDown(Keys.Left) || inputHelper.KeyDown(Keys.A))
         {
             facingLeft = true;
-            desiredHorizontalSpeed = -walkingSpeed;
+            desiredHorizontalSpeed = -walkingSpeed * speedMultiplier;
             if (isGrounded)
                 PlayAnimation("run");
         }
-        else if (inputHelper.KeyDown(Keys.Right))
+        else if (inputHelper.KeyDown(Keys.Right) || inputHelper.KeyDown(Keys.D))
         {
             facingLeft = false;
-            desiredHorizontalSpeed = walkingSpeed;
+            desiredHorizontalSpeed = walkingSpeed * speedMultiplier;
             if (isGrounded)
                 PlayAnimation("run");
         }

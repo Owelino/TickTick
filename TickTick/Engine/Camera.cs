@@ -11,7 +11,7 @@ namespace Engine
     {
         private static Camera instance;
         public Vector2 position;
-        private Point cameraSize;
+        public Point cameraSize;
         public Point WorldSize;
 
         private Camera()
@@ -37,12 +37,7 @@ namespace Engine
         private void ClampToWorldBorder()
         {
             position.X = Math.Clamp(position.X, 0, WorldSize.X - cameraSize.X);
-            position.Y = Math.Clamp(position.Y, -15, WorldSize.Y - cameraSize.Y);
-        }
-
-        public Matrix GetMatrix()
-        {
-            return Matrix.CreateTranslation(new Vector3(-position, 0));
+            position.Y = Math.Clamp(position.Y, 0, WorldSize.Y - cameraSize.Y);
         }
     }
 

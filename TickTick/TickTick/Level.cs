@@ -19,6 +19,8 @@ partial class Level : GameObjectList
 
     bool completionDetected;
 
+    int time;
+
     public Level(int levelIndex, string filename)
     {
         LevelIndex = levelIndex;
@@ -35,7 +37,7 @@ partial class Level : GameObjectList
         LoadLevelFromFile(filename);
 
         // add the timer
-        timer = new BombTimer();
+        timer = new BombTimer(time);
         AddChild(timer);
 
         // add mountains in the background
@@ -45,8 +47,9 @@ partial class Level : GameObjectList
                 "Sprites/Backgrounds/spr_mountain_" + (ExtendedGame.Random.Next(2) + 1),
                 TickTick.Depth_Background + 0.01f * (float)ExtendedGame.Random.NextDouble());
 
+            // mountains' Y position is bound to the camera instead of the level with an adjustment of 2 tileheights to avoid showing an untextured part of the sprite
             mountain.LocalPosition = new Vector2(mountain.Width * (i-1) * 0.4f, 
-                BoundingBox.Height - mountain.Height);
+                Camera.Instance.cameraSize.Y + 2 * TileHeight - mountain.Height);
 
             backgrounds.AddChild(mountain);
         }

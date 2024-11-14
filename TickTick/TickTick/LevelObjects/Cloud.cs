@@ -22,7 +22,8 @@ class Cloud : SpriteGameObject
     void Randomize()
     {
         // set a random sprite and depth
-        float depth = TickTick.Depth_Background + (float)ExtendedGame.Random.NextDouble() * 0.2f;
+        // make sure sprite does not have depth less than that of the mountains
+        float depth = TickTick.Depth_Background + (float)ExtendedGame.Random.NextDouble() * 0.2f + 0.01f;
         sprite = new SpriteSheet("Sprites/Backgrounds/spr_cloud_" + ExtendedGame.Random.Next(1, 6), depth);
 
         // set a random y-coordinate and speed

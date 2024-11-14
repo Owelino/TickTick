@@ -78,7 +78,24 @@ namespace Engine
             if (Mirror)
                 spriteEffects = SpriteEffects.FlipHorizontally;
 
-            spriteBatch.Draw(sprite, position, spriteRectangle, Color.White,
+            Vector2 SpritePosition;
+            if (depth >= 0.9f || depth == 0f)
+            {
+                SpritePosition = position;
+            }
+            else if (depth <= 0.01f)
+            {
+                SpritePosition = position;
+                // let X position gets updated a certain percentage of the camera based on depth
+                // depth of mountains is between 0.00f and 0.01f
+                SpritePosition.X -= (0.2f + depth*40)*Camera.Instance.position.X; 
+            }
+            else
+            {
+                SpritePosition = position - Camera.Instance.position;
+            }
+
+            spriteBatch.Draw(sprite, SpritePosition, spriteRectangle, Color.White,
                 0.0f, origin, 1.0f, spriteEffects, depth);
         }
 
