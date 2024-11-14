@@ -119,7 +119,7 @@ namespace Engine
             GraphicsDevice.Clear(Color.Black);
 
             // start drawing sprites, applying the scaling matrix
-            spriteBatch.Begin(SpriteSortMode.FrontToBack, null, null, null, null, null, spriteScale*Camera.Instance.GetMatrix());
+            spriteBatch.Begin(SpriteSortMode.FrontToBack, null, null, null, null, null, spriteScale);
 
             // let the game world draw itself
             GameStateManager.Draw(gameTime, spriteBatch);

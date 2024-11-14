@@ -10,7 +10,7 @@ namespace Engine
     public class Camera
     {
         private static Camera instance;
-        private Vector2 position;
+        public Vector2 position;
         private Point cameraSize;
         public Point WorldSize;
 
@@ -30,7 +30,6 @@ namespace Engine
 
         public void UpdatePosition(Vector2 playerPosition)
         {
-            
                 position = Vector2.Lerp(position, playerPosition - new Vector2(cameraSize.X / 2, cameraSize.Y / 2), 0.1f);
                 ClampToWorldBorder();
         }
@@ -38,7 +37,7 @@ namespace Engine
         private void ClampToWorldBorder()
         {
             position.X = Math.Clamp(position.X, 0, WorldSize.X - cameraSize.X);
-            position.Y = Math.Clamp(position.Y, 0, WorldSize.Y - cameraSize.Y);
+            position.Y = Math.Clamp(position.Y, -15, WorldSize.Y - cameraSize.Y);
         }
 
         public Matrix GetMatrix()
