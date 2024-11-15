@@ -42,16 +42,23 @@ using System.Threading.Tasks;
         if (Visible && level.Player.CanCollideWithObjects && HasPixelPreciseCollision(level.Player))
         {
             Visible = false;
-            ExtendedGame.AssetManager.PlaySoundEffect("Sounds/snd_watercollected");
+            ExtendedGame.AssetManager.PlaySoundEffect("Sounds/snd_powerup");
             level.Player.speedMultiplier = 2f;
             timeLeft = Time;
             timerIsTicking = true;
         }
 
+        // If player dies, stop speedboost
+        if (!level.Player.IsAlive)
+        {
+            timeLeft = 0;
+        }
+
+        // if timer runs out, stop speedboost effetc
         if(timeLeft <= 0)
         {
-            level.Player.speedMultiplier = 1f;
             timerIsTicking = false;
+            level.Player.speedMultiplier = 1f;
             timeLeft = Time;
         }
 

@@ -13,7 +13,7 @@ class PlayingState : GameState, IPlayingState
     public PlayingState()
     {
         // add a "quit" button
-        quitButton = new Button("Sprites/UI/spr_button_quit", 1);
+        quitButton = new Button("Sprites/UI/spr_button_quit", TickTick.Depth_UIForeground);
         quitButton.LocalPosition = new Vector2(1290, 20);
         gameObjects.AddChild(quitButton);
 
@@ -24,7 +24,7 @@ class PlayingState : GameState, IPlayingState
 
     SpriteGameObject AddOverlay(string spriteName)
     {
-        SpriteGameObject result = new SpriteGameObject(spriteName, 1);
+        SpriteGameObject result = new SpriteGameObject(spriteName, TickTick.Depth_UIForeground);
         result.SetOriginToCenter();
         result.LocalPosition = new Vector2(720, 412);
         gameObjects.AddChild(result);
@@ -51,13 +51,18 @@ class PlayingState : GameState, IPlayingState
                     ExtendedGameWithLevels.GoToNextLevel(level.LevelIndex);
             }
 
-            // otherwise, update the level itself, and check for button presses
+            // otherwise, update the level itself
             else 
             {
                 level.HandleInput(inputHelper);
 
-                if (quitButton.Pressed)
-                    ExtendedGame.GameStateManager.SwitchTo(ExtendedGameWithLevels.StateName_LevelSelect);
+            }
+
+            // check for button presses
+            if (quitButton.Pressed)
+            {
+                level.Reset();
+                ExtendedGame.GameStateManager.SwitchTo(ExtendedGameWithLevels.StateName_LevelSelect);
             }
         }
     }

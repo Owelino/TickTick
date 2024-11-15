@@ -19,6 +19,7 @@ namespace Engine
             cameraSize = new Point(1368, 768);
         }
 
+        // Create a static instance of the camera
         public static Camera Instance
         {
             get
@@ -27,11 +28,14 @@ namespace Engine
                 return instance;
             }
         }
-
+        
         public void UpdatePosition(Vector2 playerPosition)
         {
-                position = Vector2.Lerp(position, playerPosition - new Vector2(cameraSize.X / 2, cameraSize.Y / 2), 0.1f);
-                ClampToWorldBorder();
+            // Update the position of the camera based on the player's position and apply smoothing
+            position = Vector2.Lerp(position, playerPosition - new Vector2(cameraSize.X / 2, cameraSize.Y / 2), 0.1f);
+
+            // Keep camera position withing bounds
+            ClampToWorldBorder();
         }
 
         private void ClampToWorldBorder()

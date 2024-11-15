@@ -75,7 +75,7 @@ class Player : AnimatedGameObject
         if (!CanCollideWithObjects)
             return;
 
-        // arrow keys: move left or right
+        // arrow keys or A and D: move left or right
         if (inputHelper.KeyDown(Keys.Left) || inputHelper.KeyDown(Keys.A))
         {
             facingLeft = true;
@@ -99,8 +99,8 @@ class Player : AnimatedGameObject
                 PlayAnimation("idle");
         }
 
-        // spacebar: jump
-        if (isGrounded && inputHelper.KeyPressed(Keys.Space))
+        // spacebar, A or Up: jump
+        if (isGrounded && (inputHelper.KeyPressed(Keys.Space) || inputHelper.KeyDown(Keys.W) || inputHelper.KeyDown(Keys.Up)))
             Jump();
 
         // falling?

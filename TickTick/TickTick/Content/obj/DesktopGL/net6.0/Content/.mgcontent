@@ -12,6 +12,7 @@
     <File>C:/Users/cosal/Downloads/TickTick/TickTick/TickTick/Content/Sounds/snd_player_die.wav</File>
     <File>C:/Users/cosal/Downloads/TickTick/TickTick/TickTick/Content/Sounds/snd_player_explode.wav</File>
     <File>C:/Users/cosal/Downloads/TickTick/TickTick/TickTick/Content/Sounds/snd_player_jump.wav</File>
+    <File>C:/Users/cosal/Downloads/TickTick/TickTick/TickTick/Content/Sounds/snd_powerup.wav</File>
     <File>C:/Users/cosal/Downloads/TickTick/TickTick/TickTick/Content/Sounds/snd_watercollected.wav</File>
     <File>C:/Users/cosal/Downloads/TickTick/TickTick/TickTick/Content/Sounds/snd_won.wav</File>
     <File>C:/Users/cosal/Downloads/TickTick/TickTick/TickTick/Content/Sprites/Backgrounds/spr_cloud_1.png</File>
@@ -60,6 +61,7 @@
     <File>C:/Users/cosal/Downloads/TickTick/TickTick/TickTick/Content/Sprites/UI/spr_welldone.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

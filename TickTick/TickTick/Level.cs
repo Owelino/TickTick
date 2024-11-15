@@ -41,7 +41,8 @@ partial class Level : GameObjectList
         AddChild(timer);
 
         // add mountains in the background
-        for (int i = 0; i < 4; i++)
+        // 4 mountains per 20 tiles in width
+        for (int i = 0; i < tiles.GetLength(0)/5; i++)
         {
             SpriteGameObject mountain = new SpriteGameObject(
                 "Sprites/Backgrounds/spr_mountain_" + (ExtendedGame.Random.Next(2) + 1),
@@ -49,7 +50,7 @@ partial class Level : GameObjectList
 
             // mountains' Y position is bound to the camera instead of the level with an adjustment of 2 tileheights to avoid showing an untextured part of the sprite
             mountain.LocalPosition = new Vector2(mountain.Width * (i-1) * 0.4f, 
-                Camera.Instance.cameraSize.Y + 2 * TileHeight - mountain.Height);
+                Camera.Instance.cameraSize.Y + 2*TileHeight - mountain.Height);
 
             backgrounds.AddChild(mountain);
         }
